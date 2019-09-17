@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.att.attus.AllNews_Test">
+        <methods>
+          <include name="OpenUrlandVerifyTitle"/>
+          <include name="setUp"/>
+          <include name="endResult"/>
+          <include name="setDown"/>
+          <include name="VerifyFooterLinks"/>
+          <include name="startReport"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- com.att.attus.AllNews_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

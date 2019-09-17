@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	  <test name="About Home Page Test">
+	    <classes>
+	      <class name="com.att.attus.AboutHome_Test"/>
+	    </classes>
+	  </test>
+	  
+	  <test name="AllNews Page Test">
+	    <classes>
+	      <class name="com.att.attus.AllNews_Test"/>
+	    </classes>
+	  </test>
+</suite>
